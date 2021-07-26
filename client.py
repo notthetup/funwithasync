@@ -1,4 +1,10 @@
 #/bin/env python
+#
+# An example solution for the excercise in Python.
+#
+# Dependencies are:
+# httpx : pip install httpx
+#
 
 import httpx
 import asyncio

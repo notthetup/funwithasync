@@ -1,4 +1,9 @@
 #!/bin/env node
+/*
+ * An example solution for the excercise in JavaScript.
+ * Dependencies are : 
+ * node-fetch :  npm install node-fetch
+*/
 
 const fetch = require('node-fetch');
 
