@@ -1,0 +1,23 @@
+{
+  "name": "funwithasync",
+  "version": "1.0.0",
+  "description": "Fun with Async ============================",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notthetup/funwithasync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notthetup/funwithasync/issues"
+  },
+  "homepage": "https://github.com/notthetup/funwithasync#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
