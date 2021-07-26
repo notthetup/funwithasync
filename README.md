@@ -55,7 +55,7 @@ So **callbacks** and **blocking calls** are common mechanisms used to deal with 
 
 ## Exercise 1a - Promises and Futures
 
-Another very commonly used mechanism to deal with asynchronicity is **Promises**/**Futures**. A Promise is a way to represent the result of an asynchronous operation. The Promise is resolved when the operation is complete and the Promise is rejected when the operation fails.
+Another very commonly used mechanism to deal with asynchronicity is **Promises**/**Futures**. A Promise is a way to represent the result of an asynchronous operation. The Promise is resolved when the operation is complete and the Promise is rejected when the operation fails. These are usually just API wrappers around the underlying mechanisms like Threads or Coroutines and expose a nice interface to the developer.
 
 Write a program using Promises/Futures which 
 - sends a HTTP request to `localhost:8080/s/42`, 
